@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #000;
+
+}
+/* 
+Editar perfil */
+
+.escrita1{
+    margin-top: 80px;
+    
+    display: flex;
+    margin-left: 300px;
+}
+
+.Editar{
+
+
+    font-size: 50px;
+    color: white;
+}
+
+.separação{
+    border: 1px solid white;
+
+    width: 700px;
+
+    margin-left: 300px;
+
+    display: block;
+}
+
+
+/* foto */
+.containerDireita{
+    width: 400px;
+    height: 100%;
+
+}
+.containerFoto{
+
+
+    margin-top: 10px;
+    margin-left: 300px;
+
+    align-items: center;
+    justify-content: center;
+
+
+    width: 700px;
+    height: 700px;
+}
+.fotoPerfil{
+    width: 90px;
+    height: 90px;
+    
+}
+
+.containerDireita{
+    display: flex;
+}
+
+/* nome */
+
+.containerNome{
+
+    display: block;
+
+    width: 100%;
+    height: 35px;
+}
+
+.nome{
+
+    background-color: rgb(65, 65, 65);
+
+    border: 1px solid white;
+
+
+    color: white;
+    
+    width: 70%;
+    height: 30px;
+    max-width: 50%;
+
+    margin-left: 10px;
+}
+
+.foto{
+    display: flex;
+}
+
+/* idioma */
+
+.idioma{
+    opacity: 0.5;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.containerIdioma{
+    display: block;
+    margin-top: 5px;
+
+}
+
+.botaoIdioma{
+    margin-top: 5px;
+    background-color: rgb(65, 65, 65);
+
+    border: 1px solid white;
+
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    
+    width: 15%;
+    height: 20px;
+    max-width: 25%;
+
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.caixaIdioma{
+    display: flex;
+    
+}
+.portugues{
+    display: flex;
+
+    width: 110px;
+    height: 20px;
+}
+
+.svgArrow{
+    width: 15px;
+    height: 15px;
+
+    margin-left: 5px;
+}
+.botaoIdioma:hover{
+    background-color: rgb(160, 160, 160);
+}
+
+/* game id */
+
+.containerGameID{
+    width: 100%;
+    height: 200px;
+
+    margin-top: 20px;
+}
+
+.nomeID{
+    margin-top: 10px;
+    margin-left: 105px;
+}
+.gameId{
+    color: #fff;
+    margin-top: 20px;
+
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.descriçãoID{
+
+    margin-left: 105px;
+    margin-top: 20px;
+
+    height: 50px;
+}
+.descrição{
+
+    font-size: 19px;
+
+
+    color: #fff;
+}
+.Negrito{
+    color: #fff;
+    font-weight: bold;
+}
+
+.containerInputGame{
+
+    margin-left: 105px;
+    margin-top: 20px;
+
+    height: 50px;
+}
+
+.inputGame{
+    background-color: rgb(65, 65, 65);
+
+    border: 1px solid white;
+
+
+    color: white;
+    
+    width: 70%;
+    height: 30px;
+    max-width: 50%;
+}
+
+.separação1{
+    border: 1px solid white;
+
+    width: 100%px;
+
+    margin-left: 105px;
+    margin-top: 20px;
+
+    display: block;
+}
+
+
+/* cconfiguração de classificação etária  */
+
+.container2{
+
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.classificaçãoEtaria{
+
+    width: 500px;
+    margin-left: 105px;
+    margin-top: 20px;
+
+
+    margin-top: 10px;
+}
+.nome-classificação{
+    color: #fff;
+    margin-top: 20px;
+
+    opacity: 0.5;
+    font-size: 20px;
+}
+.descricao-container2{
+    width: 500px;
+    height: 20px;
+    margin-top: 20px;
+
+
+}
+.descriçãoEtaria{
+    
+    font-size: 19px;
+    
+    color: #fff;
+
+}
+
+
+.containerBotãoeditar{
+    width: 500px;
+    height: 40px;
+
+    margin-top: 50px;
+    margin-left: 105px;
+
+}
+
+.botaoEditar{
+    color: #fff;
+}
+
+.editar{
+    background-color: #18181b;
+
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    border: 1px solid white;
+    width: 70px;
+    height: 40px;
+    max-width: 25%;
+
+    opacity: 0.5;
+
+    cursor: pointer;
+}
+
+:hover.editar{
+    opacity: 1;
+}
+
+.containerTipoClassificação{
+    width: 500px;
+    height: 40px;
+
+    margin-top: 20px;
+    margin-left: 105px;
+}
+
+.tipoClassificação{
+
+    background-color: rgb(65, 65, 65);
+
+
+
+    color: white;
+    
+    width: 200px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+
+.spanClassificação{
+    color: #fff;
+}
+
+
+/* Controles De Inicio Automatico */
+
+.containerControlesDeInicioAutomatico{
+    margin-left: 105px;
+    margin-top: 20px;
+
+    height: 100px;
+}
+
+.opção1{
+    color: #fff;
+    display: flex;
+
+    width: 500px;
+    height: 40px;
+}
+
+.quadrado1{
+    border: 1px solid white;
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.opção2{
+    color: #fff;
+    display: flex;
+
+    width: 500px;
+    height: 40px;
+}
+
+.descriçãoOpção1{
+    margin-left: 10px;
+}
+.quadrado2{
+    margin-left: 10px;
+}
+
+/* separação */
+
+.separação3{
+    border: 1px solid white;
+
+    width: 700px;
+
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+
+/* botoes de acesso */
+
+.escrita{
+        display: flex;
+
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 20px;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.containerBotoesAcesso{
+    margin-top: 30px;
+    margin-left: 300px;
+
+    display: flex;
+
+    gap: 20px;
+
+    width: 700px;
+    height: 100px
+    
+}
+
+.botaoSalvar{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botaoCancelar{
+    width: 100px;
+    height: 40px;
+
+    background-color: #18181b;
+    border: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0.5;
+
+    cursor: pointer;
+
+    color: white;
+    
+}
+.ExcluirPerfil{
+    width: 180px;
+    height: 40px;
+
+    background-color: #18181b;
+    border: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0.5;
+
+    cursor: pointer;
+
+    color: white;
+    
+}
+
+:hover.botaoCancelar{
+opacity: 1;
+}
+:hover.ExcluirPerfil{
+    opacity: 1;
+}
+:hover.botaoSalvar{
+    background-color: red;
+}
+:hover.link1{
+    color: #fff;
+}
+
+
+.link1{
+    display: flex;
+
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 20px;
+    color: black;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.link{
+    display: flex;
+
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 20px;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
