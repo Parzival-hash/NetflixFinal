@@ -1,0 +1,226 @@
+*{
+    margin: 0;                                    
+
+}
+body{
+    background-color: #000;
+}
+
+/* TELA DE LOGIN */
+
+/* quem esta assistindo? */
+
+.containerLogin{
+    margin-top: 10%;
+}
+.assistindo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frase1{
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 50px;
+    
+}
+
+/* PERFIS */
+
+.containerPerfil{
+    
+    margin-top: 5%;
+    
+    display: flex;
+    
+    justify-content: center;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    border: 2px solid black;
+    
+    border-radius: 20px;
+}
+
+.fotoPerfil{
+    border-radius: 6px;
+    /* transition: all 0.4s linear; */
+}
+
+.pessoa1{
+    justify-content: space-evenly;
+}
+.pessoa2{
+    justify-content: space-evenly;
+}
+.pessoa3{
+    justify-content: space-evenly;
+}
+.pessoa4{
+    justify-content: space-evenly;
+}
+
+
+
+.btnAddPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #18181b;
+    border: 2px solid #fff;
+}
+.btnAddPerfil:hover{
+    transform: scale(1.08);
+}
+.nome{
+    display: block;
+    color: aliceblue;
+}
+
+.svgADD{
+    width: 50px;
+    height: 50px;
+
+}
+
+/* NOMES DO PERFIL */
+
+
+.nome1{
+    display: flex;
+    
+    width: 90px;
+    height: 40px;
+    
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.nome2{
+    display: flex;
+
+    width: 90px;
+    height: 40px;
+
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.nome3{
+    display: flex;
+
+    width: 90px;
+    height: 40px;
+
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+.nome4{
+    display: flex;
+
+    width: 90px;
+    height: 40px;
+
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.TOTAL{
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.containerEscrita{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+/* GERENCIADOR DE PERFIS */
+
+.containerGerenciador{
+    margin-top: 50px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gerenciadorPerfil{
+    width: 15%;
+    height: 40px;
+
+    display: flex;
+    border: 2px solid white;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.gerenciar{
+    display: flex;
+
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 20px;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.gerenciadorPerfil:hover{
+    transform: scale(1.08);
+    background-color: red;
+}
+.gerenciar:hover{
+    color: black;
+}
+.fotoPerfil:hover{
+    transform: scale(1.08);
+    border: 3px solid white;
+
+}
+
+.link{
+    display: flex;
+
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 20px;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
